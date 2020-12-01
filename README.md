@@ -1,4 +1,4 @@
-# hello
+# Hospital cost Analysis
 hosp <- read.csv("hospital.csv")
 head(hosp)
 summary(hosp)
@@ -14,9 +14,6 @@ attach(hosp)
 
 #1 insight
 hist(AGE)
-
-
-# The category of infants(0) has the highest vist to the hospital.
 #To see the value of category of infants.
 high<-as.factor(AGE)
 summary(high)
